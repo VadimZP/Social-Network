@@ -1,5 +1,5 @@
 export default class Http {
-  constructor(baseUrl = 'http://socialnetwork') {
+  constructor(baseUrl = 'http://social-network-zp.herokuapp.com/') {
     this.baseUrl = baseUrl
   }
 
