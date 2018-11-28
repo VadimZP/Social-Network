@@ -1,0 +1,31 @@
+.notifications {
+}
+.notifications > ul {
+  width: 100%;
+}
+
+.notifications > li {
+  padding: 15px;
+}
+
+.notifications > li:nth-child(even) {
+  background: #f1f3f5;
+}
+
+.notifications > li button {
+  min-width: 130px;
+  border: none;
+  border-radius: 3px;
+  background: #474f56;
+  color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 2px rgb(194, 194, 194);
+  box-shadow: 0 0 2px rgb(194, 194, 194);
+  font-size: 15px;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.notifications > li button:first-child {
+  margin-left: 50px;
+}

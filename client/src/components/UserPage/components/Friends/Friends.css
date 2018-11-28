@@ -1,0 +1,66 @@
+.navbar {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul > li {
+    cursor: pointer;
+    border: 1px solid rgb(226, 226, 226);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding: 15px 20px;
+}
+
+.users-list {
+    overflow: auto;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.person {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+}
+
+.person:nth-child(even) {
+    background: #F1F3F5;
+}
+
+.person > a {
+    margin-right: 50px;
+}
+
+.person .avatar{
+    max-width: 96px;
+    max-height: 96px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.person .button:not(:last-child) {
+    margin-right: 20px;
+}
+
+.person .button {
+    text-transform: initial;
+    font-weight: normal;
+}
+
+.your-friend {
+    background: #cfcfcf;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+}

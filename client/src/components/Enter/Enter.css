@@ -1,0 +1,28 @@
+.enter {
+    width: 400px;
+    margin: 200px auto;
+    box-shadow: 0 0 6px #ADB5BD;
+    border-radius: 3px;
+    background: #fff;
+}
+.enter-header {
+    display: flex;
+    align-content: center;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.enter .register, 
+.enter .sign-in {
+    padding: 15px 0;
+    width: 50%;
+    cursor: pointer;
+}
+
+.enter-body {
+    padding: 20px 10px 50px;
+}
+
+.active {
+    background: #F1F3F5;
+}
